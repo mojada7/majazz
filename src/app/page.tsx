@@ -24,8 +24,8 @@ export default function Home() {
     </div>
 
     <div className='flex flex-col lg:flex-row items-center justify-center gap-4 lg:gap-6 mt-16'>
-      <div className='w-[95%] lg:w-[30vw] text-center text-black rounded-xl border-[3px]  border-fuchsia-100 hover:bg-fuchsia-300 hover:cursor-pointer text-[24px] px-4 tracking-tighter py-8 lg:py-8'>میخوام در مورد مَ‌جاز بدونم</div>
-      <div className='w-[95%] lg:w-[30vw] text-center text-black rounded-xl border-[3px]  border-fuchsia-100 hover:bg-fuchsia-300 hover:cursor-pointer text-[24px] lg:text-[22px] px-1 tracking-tighter py-4 lg:py-8'>فقط میخوام از سرویس آگهی مَ‌جاز استفاده کنم</div>
+      <div className='w-[100%] lg:w-[30vw] text-center text-black rounded-xl border-[3px]  border-fuchsia-100 hover:bg-fuchsia-300 hover:cursor-pointer text-[20px] px-4 tracking-tighter py-6 lg:py-8'>میخوام در مورد مَ‌جاز بدونم</div>
+      <div className='w-[100%] lg:w-[30vw] text-center text-black rounded-xl border-[3px]  border-fuchsia-100 hover:bg-fuchsia-300 hover:cursor-pointer text-[20px] lg:text-[22px] px-8 tracking-tighter py-3 lg:py-8'>فقط میخوام از سرویس آگهی مَ‌جاز استفاده کنم</div>
     </div>
 
 
