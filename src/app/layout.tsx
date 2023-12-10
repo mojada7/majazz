@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa">
-      <body>
+      <body className='bg-stone-800'>
         <div className={myFont.className}>
           {children}
         </div>
