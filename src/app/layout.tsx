@@ -1,3 +1,4 @@
+import DarkLight from '@/components/darkLight'
 import './globals.css'
 import localFont from 'next/font/local'
 const myFont = localFont({
@@ -16,9 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa">
-      <body className='bg-stone-800'>
+      <body>
         <div className={myFont.className}>
-          {children}
+          <DarkLight />
+          <div className='bg-stone-900 text-white'>
+            {children}
+          </div>
         </div>
       </body>   
     </html>
