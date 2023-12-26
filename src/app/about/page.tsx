@@ -1,14 +1,14 @@
 import FullScreenMain from '@/components/wraper/fullScreenMain'
 import React from 'react'
 
-function Agahi() {
+function About() {
   return (
     <FullScreenMain>
-      <div>
-        agahi
-      </div>
+        <div>
+            about
+        </div>
     </FullScreenMain>
   )
 }
 
-export default Agahi
+export default About
