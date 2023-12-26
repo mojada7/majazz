@@ -2,8 +2,8 @@ import React from 'react'
 import CenterFlex from '../wraper/centerFlex'
 import CenterFlexCol from '../wraper/centerFlexCol'
 import pic1 from '../../../public/icon/icon.png'
-import pic2 from '../../../public/icon/futue.png'
-import pic3 from '../../../public/icon/transparency.png'
+import pic2 from '../../../public/icon/public.png'
+import pic3 from '../../../public/icon/vote.png'
 import Image from 'next/image'
 
 function CologoContainer() {
