@@ -20,7 +20,7 @@ export default function RootLayout({
       <body>
         <div className={myFont.className}>
           <DarkLight />
-          <div className='bg-stone-900 text-white'>
+          <div className='bg-stone-900 text-stone-200'>
             {children}
           </div>
         </div>
