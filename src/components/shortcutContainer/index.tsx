@@ -1,5 +1,4 @@
 import React from 'react'
-import CenterFlex from '../wraper/centerFlex'
 import ShortcutIcon from '../shortcutIcon'
 
 function ShortcutContainer() {
