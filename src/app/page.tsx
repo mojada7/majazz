@@ -10,7 +10,7 @@ export default function Home() {
 
     <div className={myFont.className}>
         <div className="text-[72px] text-center px-8 leading-[128px] py-8 pb-12  rounded-xl ">
-          <div className='text-[120px] scale-75 text-white lg:text-[200px] w-[24vw] lg:w-[9.5vw] mx-auto rounded-xl leading-[72px] lg:leading-[100px]  bg-gradient-to-r from-blue-800 via-indigo-600 to-blue-600 pt-4 lg:pt-6 border-[2px] lg:border-[3px] border-stone-800 '>
+          <div className='text-[120px] scale-75 text-white lg:text-[200px] w-[24vw] lg:w-[9.5vw] mx-auto rounded-xl leading-[72px] lg:leading-[100px]  bg-sky-400 pt-4 lg:pt-6'>
             <div className=''>
             ≈
             </div>

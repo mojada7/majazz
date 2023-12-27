@@ -18,17 +18,18 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="fa">
-      <body>
-        <Providers>
-        <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white`}>
-          <DarkLight />
-          <div className=''>
-            {children}
-          </div>
-        </div>
-        </Providers>
-      </body>   
+    <html lang="fa" className='light' style={{colorScheme: 'light'}}>
+        <body >
+          <Providers>
+            <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white`}>
+              <DarkLight />
+              <div className=''>
+                {children}
+              </div>
+            </div>
+          </Providers>
+        </body>   
+
     </html>
   )
 }
