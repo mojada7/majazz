@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react'
 import light from '../../../public/icon/light.png'
 import dark from '../../../public/icon/dark.png'
 import { useTheme } from 'next-themes'
+import Sun from '@heroicons/react/24/solid/SunIcon'
+import Moon from '@heroicons/react/24/solid/MoonIcon'
 
 function DarkLight() {
   const {theme, resolvedTheme , setTheme} = useTheme()
@@ -15,12 +17,16 @@ function DarkLight() {
   
   const LightBt = ()=> {
     return(
-      <Image alt='Lightmode' fill src={light} />
+      <Sun className="h-8 w-8 text-sky-200"/>
     )
   }
   const DarkBt = ()=> {
     return(
-      <Image alt='Darkmode' fill src={dark} />
+      <div>
+      <Moon className="h-8 w-8 text-stone-900"/>
+      
+      </div>
+
     )
   }
 
