@@ -1,6 +1,7 @@
 import DarkLight from '@/components/darkLight'
 import './globals.css'
 import localFont from 'next/font/local'
+import Providers from './providers'
 
 const myFont = localFont({
   src: '../../public/localFonts/IRANSansX-Medium.woff2'
@@ -19,14 +20,14 @@ export default function RootLayout({
   return (
     <html lang="fa">
       <body>
-
+        <Providers>
         <div className={myFont.className}>
           <DarkLight />
-          <div className='bg-stone-900 text-stone-200'>
+          <div className=''>
             {children}
           </div>
         </div>
-
+        </Providers>
       </body>   
     </html>
   )
