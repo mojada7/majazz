@@ -15,7 +15,7 @@ function CologoContainer() {
                 <div className='md:mt-3 lg:mt-1 text-[9px] md:text-xs'>metavers</div>
             </CenterFlexCol>
             <CenterFlexCol>
-                <Image className='lg:scale-100 md:scale-90 scale-75' src={pic2} alt='' width={40}/>
+                <Image className='lg:scale-100 md:scale-90 scale-75 dark:invert' src={pic2} alt='' width={40}/>
                 <div className='md:mt-3 lg:mt-1 text-[9px] md:text-xs'>blockchain</div>
             </CenterFlexCol>
             <CenterFlexCol>

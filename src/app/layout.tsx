@@ -8,7 +8,7 @@ const myFont = localFont({
 })
 
 export const metadata = {
-  title: 'مَ‌جاز',
+  title: 'majazz',
   description: 'تجربه زندگی متاورسی',
 }
 
