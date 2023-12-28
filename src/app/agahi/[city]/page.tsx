@@ -1,3 +1,5 @@
+
+import CategorySection from '@/components/agahiComponents/categorySection'
 import SearchItemeInput from '@/components/agahiComponents/searchItemeInput'
 import CenterFlexCol from '@/components/wraper/centerFlexCol'
 import FullScreenMain from '@/components/wraper/fullScreenMain'
@@ -18,9 +20,7 @@ function City() {
                 </div>
                 <SearchItemeInput />
             </div>
-            <div className='w-full h-fit py-2 text-center'>
-
-            </div>
+            <CategorySection />
             <div className='w-full h-fit py-2 text-center'>
 
             </div>
