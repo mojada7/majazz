@@ -3,7 +3,7 @@ import SeatchIcon from '@heroicons/react/24/solid/MagnifyingGlassIcon'
 import style from './style.module.css'
 function SearchItemeInput() {
   return (
-    <div className='w-full px-1 rounded-xl border-[2px] dark:bg-stone-950 border-gray-300 flex items-center md:py-1'>
+    <div className='w-[85vw] md:w-full px-1 rounded-xl border-[2px] dark:bg-stone-950 border-gray-300 flex items-center md:py-1'>
 
         <input dir='rtl' className='w-full px-2 rounded-xl dark:bg-stone-950 border-none outline-none py-1 placeholder:text-[11px] md:placeholder:text-[12px] lg:placeholder:text-[13px]' placeholder='بگرد دنبال چیزی که میخوای ...'/>
         <div className={style.flip}>

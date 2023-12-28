@@ -18,7 +18,7 @@ function About() {
         <div className={`${myFont.className} mt-8 text-[72px]`}>
             <MajazLogo/>
         </div>
-        <div dir='rtl' className='w-[86vw] tracking-tighter text-justify text-[12px] leading-6 lg:text-[15px] md:w-[70vw] lg:w-[68vw] mt-4 lg:mt-[10vh]'>
+        <div dir='rtl' className='w-[95vw] tracking-tighter text-justify text-[12px] leading-6 lg:text-[15px] md:w-[70vw] lg:w-[68vw] mt-4 lg:mt-[10vh]'>
              مجاز یک پروژه خصوصی نیست! مجاز تلاشی برای همگانی کردن منافع و قدرت تصمیم گیری در دنیای آیندمونه. نظر ما اینه دنیا با گذشت زمان و پیشرفت تکنولوژی عادلانه تر میشه و تکنولوژی های جدید مفاهیم فرهنگ و اعتماد و عدالت رو دچار تغییر میکنند. اینجا ما تلاش میکنیم جهت این تغییرات مثبت باشه.        
         </div>
 
