@@ -11,7 +11,7 @@ import BusIcon from '@heroicons/react/24/solid/BuildingStorefrontIcon'
 
 function CategorySection() {
   return (
-    <div className='w-[95vw] md:w-[90vw] lg:w-[85vw] h-fit text-center mt-4 flex flex-row-reverse flex-wrap justify-center gap-2 md:gap-4 lg:gap-6'>
+    <div className='w-[95vw] md:w-[90vw] lg:w-[85vw] mx-auto h-fit text-center flex flex-row-reverse flex-wrap justify-center gap-4 lg:gap-6'>
         <CategoryCard title='املاک' >
             <HomeIcon className='w-8 h-8'/>
         </CategoryCard>

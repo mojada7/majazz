@@ -74,10 +74,11 @@ function City({ params }: { params: { city: string } }) {
                 </div>
                 <SearchItemeInput />
             </div>
-            <CategorySection />
 
 
-            <div className='w-[96vw] h-[70vh] overflow-scroll no-scrollbar mt-4 py-2 text-center'>
+
+            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar mt-2 text-center'>
+                <CategorySection />
                 <AdCardsHolder />
             </div>
         </CenterFlexCol>
