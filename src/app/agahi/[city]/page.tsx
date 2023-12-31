@@ -60,7 +60,7 @@ function City({ params }: { params: { city: string } }) {
   return (
     <FullScreenMain>
         <CenterFlexCol>
-            <div className='w-[95vw] h-fit py-2 text-center mt-2 md:mt-4 lg:mt-5 flex flex-col md:flex-row'>
+            <div className='w-[95vw] h-fit py-1 text-center mt-2 md:mt-4 lg:mt-5 flex flex-col md:flex-row overflow-hidden'>
                 <div className='lg:w-[20vw]'>
 
                 </div>
@@ -77,7 +77,7 @@ function City({ params }: { params: { city: string } }) {
 
 
 
-            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar mt-2 text-center'>
+            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar pt-2 text-center'>
                 <CategorySection />
                 <AdCardsHolder />
             </div>
