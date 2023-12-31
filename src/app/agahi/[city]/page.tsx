@@ -1,4 +1,5 @@
 
+import AdCardsHolder from '@/components/adCardsHolder'
 import CategorySection from '@/components/agahiComponents/categorySection'
 import SearchItemeInput from '@/components/agahiComponents/searchItemeInput'
 import CenterFlexCol from '@/components/wraper/centerFlexCol'
@@ -35,7 +36,7 @@ function City({ params }: { params: { city: string } }) {
             cityFa : 'کرمان',
             cityState : 'کرمان'
         },
-        rsaht : {
+        rasht : {
             cityFa : 'رشت',
             cityState : 'گیلان'
         },
@@ -56,7 +57,6 @@ function City({ params }: { params: { city: string } }) {
             cityState : 'البرز'
         },
     }
-    console.log(cityOrigin[params.city].cityFa)
   return (
     <FullScreenMain>
         <CenterFlexCol>
@@ -75,8 +75,10 @@ function City({ params }: { params: { city: string } }) {
                 <SearchItemeInput />
             </div>
             <CategorySection />
-            <div className='w-full h-fit py-2 text-center'>
 
+
+            <div className='w-[96vw] h-fit mt-4 py-2 text-center'>
+                <AdCardsHolder />
             </div>
         </CenterFlexCol>
     </FullScreenMain>
