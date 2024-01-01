@@ -77,7 +77,7 @@ function City({ params }: { params: { city: string } }) {
 
 
 
-            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar lg:pt-2 text-center'>
+            <div className='w-[96vw] h-[90vh] overflow-scroll no-scrollbar lg:pt-2 text-center'>
                 <CategorySection />
                 <AdCardsHolder />
             </div>

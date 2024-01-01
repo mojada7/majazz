@@ -10,6 +10,14 @@ function AdCardsHolder() {
         <AdCard />
         <AdCard />
         <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
+        <AdCard />
     </div>
   )
 }

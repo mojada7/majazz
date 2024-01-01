@@ -11,7 +11,7 @@ import BusIcon from '@heroicons/react/24/solid/BuildingStorefrontIcon'
 
 function CategorySection() {
   return (
-    <div className='w-[95vw] md:w-[90vw] lg:w-[85vw] mx-auto h-fit text-center flex flex-row-reverse flex-wrap justify-center gap-4 lg:gap-6'>
+    <div className='w-[95vw] md:w-[90vw] lg:w-[85vw] mx-auto h-fit text-center flex flex-row-reverse flex-wrap justify-center py-1 gap-1 lg:gap-6'>
         <CategoryCard title='املاک' >
             <HomeIcon className='w-8 h-8'/>
         </CategoryCard>
@@ -35,6 +35,12 @@ function CategorySection() {
         </CategoryCard>
         <CategoryCard title='مشاغل' >
             <BusIcon className='w-8 h-8'/>
+        </CategoryCard>
+        <CategoryCard title='وسیله نقلیه' >
+            <CarIcon className='w-8 h-8'/>
+        </CategoryCard>
+        <CategoryCard title='استخدام' >
+            <JobIcon className='w-8 h-8'/>
         </CategoryCard>
     </div>
   )
