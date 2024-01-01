@@ -60,11 +60,11 @@ function City({ params }: { params: { city: string } }) {
   return (
     <FullScreenMain>
         <CenterFlexCol>
-            <div className='w-[95vw] h-fit py-1 text-center mt-2 md:mt-4 lg:mt-5 flex flex-col md:flex-row overflow-hidden'>
+            <div className='w-[95vw] h-fit py-1 text-center mt-1 md:mt-4 lg:mt-5 flex flex-col md:flex-row overflow-hidden'>
                 <div className='lg:w-[20vw]'>
 
                 </div>
-                <div className='flex gap-2 mb-4 lg:mb-0 lg:me-10'>
+                <div className='flex gap-2 mb-2 lg:mb-0 lg:me-10'>
                     <div className='w-[35vw] text-sm lg:w-[10vw] py-2 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
                         {cityOrigin[params.city].cityState}
                     </div>
@@ -77,7 +77,7 @@ function City({ params }: { params: { city: string } }) {
 
 
 
-            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar pt-2 text-center'>
+            <div className='w-[96vw] h-[80vh] overflow-scroll no-scrollbar lg:pt-2 text-center'>
                 <CategorySection />
                 <AdCardsHolder />
             </div>

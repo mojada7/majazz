@@ -36,7 +36,7 @@ function DarkLight() {
   }
 
   return (
-    <div onClick={changeTheme} className='fixed right-1 md:right-2 lg:right-4 top-6 w-10 h-10 rounded-full hover:cursor-pointer'>
+    <div onClick={changeTheme} className='fixed right-1 md:right-2 lg:right-4 top-1 md:top-2 lg:top-4 w-10 h-10 rounded-full hover:cursor-pointer'>
       {
         resolvedTheme=='light'? (
           <DarkBt />
