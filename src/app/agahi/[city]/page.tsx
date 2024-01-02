@@ -64,11 +64,11 @@ function City({ params }: { params: { city: string } }) {
                 <div className='lg:w-[20vw]'>
 
                 </div>
-                <div className='flex gap-2 mb-2 lg:mb-0 lg:me-10'>
-                    <div className='w-[35vw] text-sm lg:w-[10vw] py-2 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
+                <div className='flex text-xs gap-2 mb-2 lg:mb-0 lg:me-10'>
+                    <div className='w-[30vw] lg:w-[10vw] py-1 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
                         {cityOrigin[params.city].cityState}
                     </div>
-                    <div className='w-[35vw] text-sm lg:w-[10vw] py-2 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
+                    <div className='w-[30vw] lg:w-[10vw] py-1 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
                         {cityOrigin[params.city].cityFa}
                     </div>
                 </div>
