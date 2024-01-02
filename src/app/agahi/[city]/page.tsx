@@ -64,15 +64,18 @@ function City({ params }: { params: { city: string } }) {
                 <div className='lg:w-[20vw]'>
 
                 </div>
-                <div className='flex text-xs gap-2 mb-2 lg:mb-0 lg:me-10'>
-                    <div className='w-[30vw] lg:w-[10vw] py-1 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
+                <div className='flex text-xs md:text-sm gap-2 mb-2 lg:mb-0 lg:me-10'>
+                    <div className='w-[30vw] md:w-[20vw] lg:w-[10vw] py-1 md:py-2 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
                         {cityOrigin[params.city].cityState}
                     </div>
-                    <div className='w-[30vw] lg:w-[10vw] py-1 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
+                    <div className='w-[30vw] md:w-[20vw] lg:w-[10vw] py-1 md:py-2 lg:my-auto bg-gray-200 dark:bg-stone-900 rounded-lg'>
                         {cityOrigin[params.city].cityFa}
                     </div>
                 </div>
-                <SearchItemeInput />
+                <div className='w-[95vw] md:w-[45vw] lg:w-[40vw] md:ms-4 lg:ms-0'>
+                    <SearchItemeInput />
+                </div>
+
             </div>
 
 
