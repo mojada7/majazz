@@ -13,37 +13,37 @@ function CategorySection() {
   return (
     <div className='w-fit md:w-[90vw] lg:w-[85vw] mx-auto h-fit text-center flex flex-row-reverse overflow-hidden justify-center py-1 gap-1 lg:gap-6'>
         <CategoryCard title='املاک' >
-            <HomeIcon className='w-8 h-8'/>
+            <HomeIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='موبایل' >
-            <MobileIcon className='w-8 h-8'/>
+            <MobileIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='وسیله نقلیه' >
-            <CarIcon className='w-8 h-8'/>
+            <CarIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='استخدام' >
-            <JobIcon className='w-8 h-8'/>
+            <JobIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='الکترونیکی' >
-            <DigitalIcon className='w-8 h-8'/>
+            <DigitalIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='وسایل شخصی' >
-            <ClockIcon className='w-8 h-8'/>
+            <ClockIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='خدمات' >
-            <ServiceIcon className='w-8 h-8'/>
+            <ServiceIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='مشاغل' >
-            <BusIcon className='w-8 h-8'/>
+            <BusIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='املاک' >
-            <HomeIcon className='w-8 h-8'/>
+            <HomeIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='موبایل' >
-            <MobileIcon className='w-8 h-8'/>
+            <MobileIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
         <CategoryCard title='وسیله نقلیه' >
-            <CarIcon className='w-8 h-8'/>
+            <CarIcon className='w-7 h-7 lg:w-8 lg:h-8'/>
         </CategoryCard>
     </div>
   )
