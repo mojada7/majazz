@@ -3,7 +3,8 @@ import React, { ReactNode } from 'react'
 
 function CategoryCard({children, title} : {children : ReactNode, title : string}) {
   return (
-    <div className='w-[72px] md:w-[82px] h-16 md:h-[70px] bg-gray-200 dark:bg-stone-900 rounded-md py-2'>
+    <div className='h-fit'>
+    <div className='w-[72px] md:w-[82px] h-full bg-gray-200 dark:bg-stone-900 rounded-md py-2'>
         <CenterFlexCol>
         <div className=''>
             {children}
@@ -15,6 +16,8 @@ function CategoryCard({children, title} : {children : ReactNode, title : string}
         </CenterFlexCol>
 
     </div>
+    </div>
+
   )
 }
 

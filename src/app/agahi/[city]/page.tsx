@@ -80,7 +80,7 @@ function City({ params }: { params: { city: string } }) {
 
 
 
-            <div className='w-[96vw] h-[90vh] lg:pt-2 text-center'>
+            <div className='w-[96vw] h-[80vh] lg:pt-2 text-center'>
                 <div className='w-[100%] h-fit overflow-scroll no-scrollbar'>
                     <CategorySection />
                 </div>
@@ -88,6 +88,8 @@ function City({ params }: { params: { city: string } }) {
                     <AdCardsHolder />
                 </div>
             </div>
+
+
         </CenterFlexCol>
     </FullScreenMain>
   )
