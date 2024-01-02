@@ -1,13 +1,13 @@
 import React from 'react'
 import CategoryCard from '../categoryCard'
-import HomeIcon from '@heroicons/react/24/solid/HomeModernIcon'
-import MobileIcon from '@heroicons/react/24/solid/DevicePhoneMobileIcon'
-import CarIcon from '@heroicons/react/24/solid/TruckIcon'
-import JobIcon from '@heroicons/react/24/solid/IdentificationIcon'
-import DigitalIcon from '@heroicons/react/24/solid/ComputerDesktopIcon'
-import ClockIcon from '@heroicons/react/24/solid/ClockIcon'
-import ServiceIcon from '@heroicons/react/24/solid/WrenchScrewdriverIcon'
-import BusIcon from '@heroicons/react/24/solid/BuildingStorefrontIcon'
+import HomeIcon from '@heroicons/react/24/outline/HomeModernIcon'
+import MobileIcon from '@heroicons/react/24/outline/DevicePhoneMobileIcon'
+import CarIcon from '@heroicons/react/24/outline/TruckIcon'
+import JobIcon from '@heroicons/react/24/outline/IdentificationIcon'
+import DigitalIcon from '@heroicons/react/24/outline/ComputerDesktopIcon'
+import ClockIcon from '@heroicons/react/24/outline/ClockIcon'
+import ServiceIcon from '@heroicons/react/24/outline/WrenchScrewdriverIcon'
+import BusIcon from '@heroicons/react/24/outline/BuildingStorefrontIcon'
 
 function CategorySection() {
   return (
