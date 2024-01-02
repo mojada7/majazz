@@ -25,12 +25,12 @@ export default function RootLayout({
       </Head>
         <body >
           <Providers>
-            <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white`}>
+            <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white z-10`}>
               <DarkLight />
-              <div className=''>
-                {children}
-              </div>
+              {children}
             </div>
+
+
           </Providers>
         </body>   
 
