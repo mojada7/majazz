@@ -3,7 +3,7 @@ import React, { ReactNode } from 'react'
 
 function CategoryCard({children, title} : {children : ReactNode, title : string}) {
   return (
-    <div className='h-fit'>
+    <div className='h-fit hover:scale-105'>
     <div className='w-[72px] md:w-[82px] h-full bg-gray-200 dark:bg-stone-900 rounded-md py-2'>
         <CenterFlexCol>
         <div className=''>
