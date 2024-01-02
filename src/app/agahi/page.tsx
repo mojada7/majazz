@@ -11,9 +11,7 @@ function Agahi() {
   return (
     <FullScreenMain>
       <CenterFlexCol>
-        <div className='mt-2'>
-          <Logo/>
-        </div>
+        <Logo/>
         <ShortcutContainer/>
         <Slogan/>
         <SearchCity/>
