@@ -14,13 +14,13 @@ function DarkLight() {
   
   const LightBt = ()=> {
     return(
-      <Sun className="h-8 w-8 text-white"/>
+      <Sun className="w-7 lg:h-8 h-7 lg:w-8 text-white"/>
     )
   }
   const DarkBt = ()=> {
     return(
       <div>
-      <Moon className="h-8 w-8 text-stone-900"/>
+      <Moon className="w-7 lg:h-8 h-7 lg:w-8 text-stone-900"/>
       
       </div>
 
