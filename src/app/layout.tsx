@@ -20,9 +20,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa" className='light' style={{colorScheme: 'light'}}>
-      <Head>
-        <meta name='theme-color' content='#000000' />
-      </Head>
         <body >
           <Providers>
             <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white z-10`}>
