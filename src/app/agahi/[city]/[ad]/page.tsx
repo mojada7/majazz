@@ -9,7 +9,7 @@ import SwiperSlider from '@/components/agahiComponents/swiperSlider'
 function AdPage() {
   return (
     <FullScreenMain>
-      <div className='w-full h-[40vh] lg:h-[70vh] mt-11'>
+      <div className='w-full h-[40vh] lg:w-[40vw] lg:h-[60vh] mt-11'>
         <SwiperSlider pics={[adpic ,adpic2, adpic3, adpic4]} />
       </div>
       <div className='w-full h-[40vh] lg:h-[30vh'>
