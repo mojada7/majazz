@@ -18,27 +18,27 @@ function SwiperSlider({pics} : {pics : any[]}) {
   return (
         <>
       <Swiper
-        direction={'vertical'}
+
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className='w-full h-full'>
-            <Image src={pics[0]} alt='' fill className='block object-cover'/>
-          </div>
 
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+          {
+            pics.map(pic=> {
+              return(
+                <SwiperSlide key={Math.random()*10000}>
+                  <div className='w-full h-full'>
+                    <Image src={pic} alt='' fill className='block object-cover'/>
+                  </div>
+                </SwiperSlide>
+
+              )
+            })
+          }
+
       </Swiper>
     </>
   )
