@@ -1,9 +1,9 @@
 import FullScreenMain from '@/components/wraper/fullScreenMain'
 import React from 'react'
-import adpic from '../../../../../public/pic/galaxy.webp'
-import adpic2 from '../../../../../public/pic/galaxy2.jpg'
-import adpic3 from '../../../../../public/pic/galaxy3.png'
-import adpic4 from '../../../../../public/pic/galaxy4.jpg'
+import adpic from '../../../../../../public/pic/galaxy.webp'
+import adpic2 from '../../../../../../public/pic/galaxy2.jpg'
+import adpic3 from '../../../../../../public/pic/galaxy3.png'
+import adpic4 from '../../../../../../public/pic/galaxy4.jpg'
 import SwiperSlider from '@/components/agahiComponents/swiperSlider'
 
 function AdPage() {
