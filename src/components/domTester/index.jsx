@@ -18,7 +18,7 @@ function DomTester() {
         getFullScreen()
     ,[]})
   return (
-    <div className='w-full h-full bg-blue-400 text-center pt-8'>DomTester</div>
+    <div></div>
   )
 }
 

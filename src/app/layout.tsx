@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="fa" className='light' style={{colorScheme: 'light'}}>
         <body >
           <Providers>
+
             <div className={`${myFont.className} bg-white text-stone-800 dark:bg-stone-800 dark:text-white z-10`}>
               <DarkLight />
               {children}

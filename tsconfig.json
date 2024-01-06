@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/agahiComponents/swiperSlider/index.tsx", "src/components/agahiComponents/swiperSlider/index.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/agahiComponents/swiperSlider/index.tsx", "src/components/agahiComponents/swiperSlider/index.tsx", "src/components/domTester/index.jsx"],
   "exclude": ["node_modules"]
 }
