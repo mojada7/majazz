@@ -7,10 +7,10 @@ function Messenger() {
   const messages = ['somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing','somthing']
   return (
     <FullScreenMain>
-            <div className='h-[8%] w-full bg-sky-300 dark:bg-sky-950'>
+            <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-sky-300 dark:bg-sky-950'>
 
             </div>
-      <div className='w-full lg:w-[60%] h-[92%]'>
+      <div className='w-full lg:w-[40%] h-[94%] md:h-[92%] lg:h-[90%]'>
 
 
         <div className='w-full h-full flex flex-col justify-start items-center overflow-scroll no-scrollbar gap-[2px]'>
@@ -21,19 +21,19 @@ function Messenger() {
 
       </div>
       <div className='h-full py-2 flex flex-col justify-between grow px-2'>
-        <div className='w-fit text-xl ps-1'>
+        <div className='w-fit text-md ps-1'>
           {i.contact}
         </div>
-        <div className='ms-4 text-right text-sm h-6 overflow-hidden'>
+        <div className='ms-4 text-right text-xs h-4 overflow-hidden mb-1'>
           {i.messages[0].message}
         </div>
       </div>
       <div>
       <div className='flex flex-col gap-2 items-center'>
-            <div className='text-lg'>
+            <div className='text-md'>
               {i.messages[0].date}
             </div>
-            <div className='rounded-full bg-green-400 px-2 text-white w-fit'>
+            <div className='rounded-full bg-green-400 px-2 pt-1 text-white w-fit'>
               2
             </div>
             
