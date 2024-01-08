@@ -24,13 +24,13 @@ function Messenger() {
         <div className='w-fit text-md ps-1'>
           {i.contact}
         </div>
-        <div className='ms-6 text-right text-xs h-4 overflow-hidden mb-1 text-gray-500'>
+        <div className='ms-6 text-right text-xs h-4 overflow-hidden mb-1 text-gray-500 dark:text-gray-200'>
           {i.messages[0].message}
         </div>
       </div>
       <div>
       <div className='flex flex-col gap-2 items-center'>
-            <div className='text-sm text-gray-400'>
+            <div className='text-sm text-gray-400 dark:text-gray-300'>
               {i.messages[0].date}
             </div>
             <div className='rounded-full text-sm bg-green-400 px-2 pt-[2px] text-white w-fit'>
