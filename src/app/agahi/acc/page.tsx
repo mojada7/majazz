@@ -1,8 +1,10 @@
-import FullScreenMain from '@/components/wraper/fullScreenMain'
-import DomTester from '@/components/domTester'
+
+import BackButton from '@/components/backButton'
 import React from 'react'
 
+
 function Acc() {
+
   return (
     <div className='w-[100vw] h-[100vh] overflow-hidden'>
         <div className='w-[100%] h-[90%] lg:h-[85%] overflow-hidden flex flex-col lg:flex-row'>
@@ -41,7 +43,9 @@ function Acc() {
 
         </div>
         <div className='w-[100%] h-[10%] lg:h-[15%] bg-gray-100 dark:bg-black'>
-            <DomTester />
+            <div className='h-full w-[25%] rounded-lg bg-lime-600 text-center flex justify-center items-center'> 
+                <BackButton />
+            </div>
         </div>
 
     </div>
