@@ -1,7 +1,6 @@
 import React from 'react'
 
-function Msg({msgData} : {
-  msgData : {message: string, sender : number, date : string}}) {
+function Msg({msgData} : any) {
   return (
 
 
