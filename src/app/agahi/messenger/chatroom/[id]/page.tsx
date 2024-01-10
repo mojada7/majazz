@@ -27,11 +27,10 @@ function ChatRoom({params} : {params : {id : string}}) {
       <BackButton />
       </div>
 
-      <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-sky-300 dark:bg-sky-950'>
+        <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-sky-300 dark:bg-sky-950 z-20 absolute'>
 
-      </div>
-      <div className='w-full lg:w-[40%] h-[94%] md:h-[92%] lg:h-[90%]'>
-        <div className='w-full h-full flex flex-col justify-start items-center overflow-scroll no-scrollbar gap-[2px] pt-6'>
+        </div>
+        <div className='w-full lg:w-[35vw] h-[90%] flex flex-col justify-start items-center overflow-scroll no-scrollbar gap-[2px] fixed bottom-0 left-0 z-0'>
         <div className='w-full px-2 py-2'>
           {msgs.map(msg=>{
             return(
@@ -46,10 +45,16 @@ function ChatRoom({params} : {params : {id : string}}) {
               )
             )
           })}
+          <div className='absolute w-full h-[6rem] bottom-0 left-0 bg-black flex justify-between items-center px-4'>
+            <div className='h-[60%] border border-white rounded-xl w-[20%]'></div>
+            <input className='h-[60%] border border-white rounded-xl w-[58%]'/>
+            <div className='h-[60%] border border-white rounded-xl w-[20%]'></div>
           </div>
+          </div>
+          
         </div>
         
-      </div>
+
     </FullScreenMain>
   )
 }

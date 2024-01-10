@@ -24,10 +24,10 @@ function Messenger() {
       return(
         <MessageCard contactName={i.contact} lastMessage={i.messages[0].message} date={i.messages[0].date} key={Math.random()*19999344} chatRoomId={12} />
 
-  )
-})}
+      )
+      })}
 
-</div>
+      </div>
 
       </div>
 
