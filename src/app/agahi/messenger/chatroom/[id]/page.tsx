@@ -1,7 +1,8 @@
-import BackButton from '@/components/backButton'
+
 import Msg from '@/components/msg'
 import MsgInputCard from '@/components/msgInputCard'
 import FullScreenMain from '@/components/wraper/fullScreenMain'
+import Link from 'next/link'
 import React from 'react'
 
 function ChatRoom({params} : {params : {id : string}}) {
@@ -23,12 +24,12 @@ function ChatRoom({params} : {params : {id : string}}) {
     }
   ]
   return (
-    <div className='w-[100vw] h-[100vh] overflow-hidden bg-violet-500 dark:bg-violet-950'>
-      <div className='absolute top-2 left-2 px-4 py-2 rounded-lg text-white'>
-      <BackButton />
+    <FullScreenMain>
+            <div className='absolute top-2 lg:top-3 left-2 px-4 py-2 rounded-lg text-white z-30'>
+        <Link href={'/agahi/messenger'} >Back</Link>
       </div>
 
-        <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-white dark:bg-violet-800 z-20 absolute'>
+        <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-violet-800 dark:bg-violet-600 z-20 absolute'>
 
         </div>
         <div className='w-full lg:w-[35vw] h-[90%] flex flex-col justify-start items-center overflow-scroll no-scrollbar gap-[2px] fixed bottom-0 left-0 z-0' >
@@ -54,7 +55,7 @@ function ChatRoom({params} : {params : {id : string}}) {
         </div>
         
 
-    </div>
+    </FullScreenMain>
   )
 }
 

@@ -6,7 +6,7 @@ function Msg({msgData} : {
 
 
 
-            <div className={`${msgData.sender?('bg-sky-100 dark:bg-black'):('bg-sky-200 dark:bg-violet-600')} px-2 py-1 rounded-2xl rounded-es-none flex items-end gap-4 `}>
+            <div className={`${msgData.sender?('bg-sky-100 dark:bg-black'):('bg-sky-200 dark:bg-violet-900')} px-2 py-1 rounded-2xl rounded-es-none flex items-end gap-4 `}>
               <div className='text-[10px]'>
                 {msgData.date}
               </div>
