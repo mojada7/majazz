@@ -22,7 +22,11 @@ function MsgInputCard({setMsg} : any) {
 
 
 
-
+const enterAction = (e:any)=> {
+  if(e.keyCode == 13) {
+    sendMsg()
+  }
+}
 
 
   const inputRef = useRef('')
@@ -43,7 +47,7 @@ function MsgInputCard({setMsg} : any) {
       <div className='h-[80%] rounded-xl w-fit'>
         <FaceSmile  className='text-sky-300 dark:text-sky-300 w-10 lg:h-12 wh10 lg:w-12'/> 
       </div>
-      <input ref={inputR} onChange={(e)=>{inputAction(e)}} dir='rtl' placeholder='پیام ...' className='h-[80%] rounded-md outline-none px-4 grow'/>
+      <input ref={inputR} onKeyDown={(e)=>enterAction(e)} onChange={(e)=>{inputAction(e)}} dir='rtl' placeholder='پیام ...' className='h-[80%] rounded-md outline-none px-4 grow'/>
       <div onClick={sendMsg} className='h-[80%] rounded-xl w-fit'>
         <SendIcon className='text-sky-300 dark:text-sky-300 w-10 lg:h-12 h-10 lg:w-12' /> 
       </div>
