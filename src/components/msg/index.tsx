@@ -1,4 +1,6 @@
 import React from 'react'
+import Tik from '@heroicons/react/16/solid/ChevronLeftIcon'
+import Tik2 from '@heroicons/react/16/solid/ChevronDoubleLeftIcon'
 
 function Msg({msgData} : any) {
   return (
@@ -12,8 +14,10 @@ function Msg({msgData} : any) {
               <div className='py-2'>
                 {msgData.message}
               </div>
-              <div className='text-[10px]'>
-                  {!msgData.sender&&('+')}
+              <div className='text-[10px] text-white'>
+                  {!msgData.sender&&(
+                    <Tik2 className='h-5 w-5' />
+                  )}
               </div>
 
             </div>
