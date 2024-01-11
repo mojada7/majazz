@@ -61,7 +61,7 @@ function ChatRoom({params} : {params : {id : string}}) {
               )
             )
           })}
-          <div className='absolute w-full h-[4rem] bottom-2 lg:bottom-4 left-0 bg-sky-100 dark:bg-stone-700 flex justify-between items-center px-2 gap-2'>
+          <div className='absolute w-full h-[3rem] lg:h-[4rem] bottom-2 lg:bottom-4 left-0 bg-sky-100 dark:bg-stone-700 flex justify-between items-center px-2 gap-2'>
             <MsgInputCard setMsg={msgAdder} />
           </div>
           </div>
