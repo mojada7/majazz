@@ -7,8 +7,8 @@ function MessageCard({
     contactName : string, lastMessage : string, date : string , chatRoomId : number
 }) {
   return (
-    <Link href={`/agahi/messenger/chatroom/${chatRoomId}`} className='w-full px-1 pe-2 text-center bg-gray-50 dark:bg-black flex justify-between items-center' key={Math.random()*100000}>
-    <div className='w-[4rem] lg:w-[5rem] h-[4rem] lg:h-[5rem] rounded-full bg-gray-200 dark:bg-stone-900 mb-2'>
+    <Link href={`/agahi/messenger/chatroom/${chatRoomId}`} className='w-full px-1 pe-2 text-center bg-gray-50 dark:bg-stone-900 flex justify-between items-center' key={Math.random()*100000}>
+    <div className='w-[4rem] lg:w-[5rem] h-[4rem] lg:h-[5rem] rounded-full bg-gray-200 dark:bg-stone-800 mb-2 mt-1'>
 
     </div>
     <div className='h-full py-2 flex flex-col justify-between grow px-2 border-b pb-4 dark:border-gray-600'>

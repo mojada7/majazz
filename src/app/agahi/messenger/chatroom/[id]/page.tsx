@@ -43,7 +43,7 @@ function ChatRoom({params} : {params : {id : string}}) {
         <Link href={'/agahi/messenger'} >Back</Link>
       </div>
 
-        <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-violet-800 dark:bg-violet-600 z-20 absolute'>
+        <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-sky-400 dark:bg-black z-20 absolute'>
 
         </div>
         <div className='w-full lg:w-[35vw] h-[90%] flex flex-col justify-start items-center overflow-scroll no-scrollbar gap-[2px] fixed bottom-0 left-0 z-0' >

@@ -44,13 +44,11 @@ const enterAction = (e:any)=> {
   }
   return (
     <>
-      <div className='h-[80%] rounded-xl w-fit'>
-        <FaceSmile  className='text-sky-300 dark:text-sky-300 w-10 lg:h-12 wh10 lg:w-12'/> 
-      </div>
+
+      <FaceSmile  className='text-sky-300 dark:text-sky-400 w-8 lg:h-12 h-8 lg:w-12'/> 
       <input ref={inputR} onKeyDown={(e)=>enterAction(e)} onChange={(e)=>{inputAction(e)}} dir='rtl' placeholder='پیام ...' className='h-[80%] rounded-md outline-none px-4 grow'/>
-      <div onClick={sendMsg} className='h-[80%] rounded-xl w-fit'>
-        <SendIcon className='text-sky-300 dark:text-sky-300 w-10 lg:h-12 h-10 lg:w-12' /> 
-      </div>
+      <SendIcon onClick={sendMsg} className='text-sky-300 dark:text-sky-400 w-8 lg:h-12 h-8 lg:w-12' /> 
+
     </>
   )
 }

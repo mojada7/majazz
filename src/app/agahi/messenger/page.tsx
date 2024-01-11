@@ -12,7 +12,7 @@ function Messenger() {
             <div className='absolute top-2 left-2 px-4 py-2 rounded-lg text-white'>
       <BackButton />
       </div>
-            <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-violet-800 dark:bg-violet-600'>
+            <div className='h-[6%] md:h-[8%] lg:h-[10%] w-full bg-sky-400 dark:bg-black'>
 
             </div>
       <div className='w-full lg:w-[40%] flex h-[94%] md:h-[92%] lg:h-[90%]'>
